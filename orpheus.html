@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!---add header here--->
-<img class="divider" src="https://raw.githubusercontent.com/lino994/Roll20/master/img/orpheus_logo.png" style="margin-bottom:20px"> <!--Header Image-->
+<img class="divider" src="https://raw.githubusercontent.com/lino994/Roll20/master/img/orpheus_header.png" style="margin-bottom:20px"> <!--Header Image-->
 <br>
 <div class="sheet-3colrow">
     <div class="sheet-col">
@@ -649,7 +649,7 @@
 			<input type="text" name="attr_Back5Name" style="width:105px"/>
 			<input type="text" name="attr_Back6Name" style="width:105px"/>
     </div>
-    <div class="sheet-col" style="width:162px; line-height:28px">
+    <div class="sheet-col" style="width:247px; line-height:28px">
        
 			<input type="radio" name="attr_Back1" value="0" class=" zero" checked/><span></span>
 			<input type="radio" name="attr_Back1" value="1" /><span></span>   
@@ -721,35 +721,36 @@
 			<input type="radio" name="attr_Back6" value="8" /><span></span>
         </div>
     </div>
-    <div class="sheet-col" style="width:30px">
 	
 	<!---Horrors--->
-    </div>
-        <div class="sheet-col" style="width:100px">
+	<div class="sheet-col" style="width:242px">
+        <div class="sheet-col" style="width:135px">
        
-			<input type="text" name="attr_Lore1Name" style="width:105px"/>
-			<input type="text" name="attr_Lore2Name" style="width:105px"/>
-			<input type="text" name="attr_Lore3Name" style="width:105px"/>
-			<input type="text" name="attr_Lore4Name" style="width:105px"/>
-			<input type="text" name="attr_Lore5Name" style="width:105px"/>
-			<input type="text" name="attr_Lore6Name" style="width:105px"/>
+			<input type="text" name="attr_Horror1Name" style="width:150px"/>
+			<input type="text" name="attr_Horror2Name" style="width:150px"/>
+			<input type="text" name="attr_Horror3Name" style="width:150px"/>
+			<input type="text" name="attr_Horror4Name" style="width:150px"/>
+			<input type="text" name="attr_Horror5Name" style="width:150px"/>
+			<input type="text" name="attr_Horror6Name" style="width:150px"/>
 		</div>
-    </div>
+	</div>
 	
-    <div class="sheet-col" style="width:15px">
-    </div>
-    <!----Stains---->
-	<div class="sheet-col" style="width:140px; line-height:17px;text-align:center">
-			<input type="text" name="attr_Lore1Name" style="width:105px"/>
-			<input type="text" name="attr_Lore2Name" style="width:105px"/>
-			<input type="text" name="attr_Lore3Name" style="width:105px"/>
-			<input type="text" name="attr_Lore4Name" style="width:105px"/>
-			<input type="text" name="attr_Lore5Name" style="width:105px"/>
-			<input type="text" name="attr_Lore6Name" style="width:105px"/>
+	<!---Stains--->
+	<div class="sheet-col" style="width:230px">
+        <div class="sheet-col" style="width:130px">
+       
+			<input type="text" name="attr_Stain1Name" style="width:150px"/>
+			<input type="text" name="attr_Stain2Name" style="width:150px"/>
+			<input type="text" name="attr_Stain3Name" style="width:150px"/>
+			<input type="text" name="attr_Stain4Name" style="width:150px"/>
+			<input type="text" name="attr_Stain5Name" style="width:150px"/>
+			<input type="text" name="attr_Stain6Name" style="width:150px"/>
 		</div>
-    </div>
+	</div>
+	
 </div>
-<img class="divider" src="https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/CWOD-Demon/img/AF_Faith_Health_divide.png" style="width:850px;margin-top:10px;"> <!--Apoc Form/Faith/Health Picture-->
+<!--- Health, abilities, and vitality --->
+<img class="divider" src="https://raw.githubusercontent.com/lino994/Roll20/master/img/default_health_header.png" style="width:850px;margin-top:10px;"> <!--Apoc Form/Faith/Health Picture-->
 <div class="sheet-col" style="width:270px; ">
     <textarea name="attr_ApocForm" style="width:260px; height:120px"></textarea>
 	<h3 style="display:inline">Click to manifest:</h3>
@@ -850,11 +851,7 @@
         </div>
     </div>
     <br><br>
-    <img class="section" src="https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/CWOD-Demon/img/merits.png"> <!--Merits Picture-->
-    <textarea name="attr_merits" style="width:260px; height:50px"></textarea>
-    <br>
-    <img class="section" src="https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/CWOD-Demon/img/flaws.png"><!--Flaws Picture-->
-    <textarea name="attr_flaws" style="width:260px; height:50px"></textarea>
+    <!---<textarea name="attr_merits" style="width:260px; height:50px"></textarea>--->
 </div>
 
 <div class="sheet-col" style="width:265px;margin-left:15px;margin-right:15px" align="center">
@@ -888,66 +885,8 @@
 			<input type="radio" name="attr_Faith_Used" value="10" class=" used"/><span></span>
     </div>
     <br>
-    <img class="section" src="https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/CWOD-Demon/img/torment.png" style="margin-left:5px;"><!--Torment Picture-->
-    <h4 style="text-align: center">Permanent</h4>
-    <div class="sheet-row" align="left" style="margin:0px 0px 0px 28px">
-       
-			<input type="radio" name="attr_TormentPerm" value="0" class="zero" checked/><span></span>
-			<input type="radio" name="attr_TormentPerm" value="1" /><span></span>   
-			<input type="radio" name="attr_TormentPerm" value="2" /><span></span>   
-			<input type="radio" name="attr_TormentPerm" value="3" /><span></span>   
-			<input type="radio" name="attr_TormentPerm" value="4" /><span></span>   
-			<input type="radio" name="attr_TormentPerm" value="5"/><span></span>   
-			<input type="radio" name="attr_TormentPerm" value="6" /><span></span>   
-			<input type="radio" name="attr_TormentPerm" value="7" /><span></span>   
-			<input type="radio" name="attr_TormentPerm" value="8" /><span></span>   
-			<input type="radio" name="attr_TormentPerm" value="9" /><span></span>   
-			<input type="radio" name="attr_TormentPerm" value="10" /><span></span>
-    </div>
-    <h4 style="text-align:center;margin-top:5px">Temporary</h4>
-    <div class="sheet-row" align="left" style="margin:0px 0px 0px 28px">
-       
-			<input type="radio" name="attr_TormentTemp" value="0" class="zero" checked/><span></span>
-			<input type="radio" name="attr_TormentTemp" value="1" /><span></span>   
-			<input type="radio" name="attr_TormentTemp" value="2" /><span></span>   
-			<input type="radio" name="attr_TormentTemp" value="3" /><span></span>   
-			<input type="radio" name="attr_TormentTemp" value="4" /><span></span>   
-			<input type="radio" name="attr_TormentTemp" value="5"/><span></span>   
-			<input type="radio" name="attr_TormentTemp" value="6" /><span></span>   
-			<input type="radio" name="attr_TormentTemp" value="7" /><span></span>   
-			<input type="radio" name="attr_TormentTemp" value="8" /><span></span>   
-			<input type="radio" name="attr_TormentTemp" value="9" /><span></span>   
-			<input type="radio" name="attr_TormentTemp" value="10" /><span></span>
-    </div>
-    <br>
 
-    <h4 style="text-align:center;margin-bottom:5px">The Wages of Sin</h4>
-    <div class="sheet-row" align="center">
-
-            <select name="attr_SinVirtue" style="width:auto"> 
-    			<option value="0" selected></option>
-    			<option value="@{Conscience}">Conscience</option> 
-    			<option value="@{Conviction}">Conviction</option>
-    			<option value="@{Courage}">Courage</option>
-    			</select>
-        
-         <button type='roll' name='roll_Sin' value='/em battles with their Torment\n/r {(@{SinVirtue}+?{Pool Mod|0})d10s}>?{Difficulty|8}f1' style="display:inline"></button>
-       </div>
-
-    <h4 style="text-align:center;margin-bottom:5px">Acts of Kindness</h4>
-    <div align="center">
-
-            <select name="attr_KindnessVirtue" style="width:auto"> 
-    			<option value="0" selected></option>
-    			<option value="@{Conscience}">Conscience</option> 
-    			<option value="@{Conviction}">Conviction</option>
-    			<option value="@{Courage}">Courage</option>
-    			</select>
-    			<h4  style="display:inline">vs. Torment</h4>
-        <button type='roll' name='roll_Kindness' value='/em battles with their Torment\n ?{Difficulty|8} &{template:default} {{name=Acts of Kindness}} {{Virtue Success=[[(@{KindnessVirtue})d10s>?{Difficulty}f1]] }} {{Torment Success=[[(@{TormentPerm})d10s>?{Difficulty}f1]] }}'></button>
-       </div>
-
-    <img class="section" src="https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/CWOD-Demon/img/willpower.png" style="margin-left:5px;"><!--Willpower Picture-->
+    <img class="section" src="https://raw.githubusercontent.com/lino994/Roll20/master/img/willpower_header.png" style="margin-left:5px;"><!--Willpower Picture-->
     <div align="left" style="margin:0px 0px 0px 46px">
 			<input type="radio" name="attr_Willpower" value="1" /><span></span>   
 			<input type="radio" name="attr_Willpower" value="2" /><span></span>   
@@ -975,7 +914,38 @@
 			<input type="radio" name="attr_Willpower_Used" value="9" class=" used"/><span></span>   
 			<input type="radio" name="attr_Willpower_Used" value="10" class=" used"/><span></span>
     </div>
-
+    <br>
+    <img class="section" src="https://raw.githubusercontent.com/lino994/Roll20/master/img/spiter_header.png" style="margin-left:5px;"><!--Willpower Picture-->
+    <div align="left" style="margin:0px 0px 0px 46px">
+			<input type="radio" name="attr_Spite" value="1" /><span></span>   
+			<input type="radio" name="attr_Spite" value="2" /><span></span>   
+			<input type="radio" name="attr_Spite" value="3" /><span></span>   
+			<input type="radio" name="attr_Spite" value="4" /><span></span>   
+			<input type="radio" name="attr_Spite" value="5"  checked="checked"/><span></span>   
+			<input type="radio" name="attr_Spite" value="6" /><span></span>   
+			<input type="radio" name="attr_Spite" value="7" /><span></span>   
+			<input type="radio" name="attr_Spite" value="8" /><span></span>   
+			<input type="radio" name="attr_Spite" value="9" /><span></span>   
+			<input type="radio" name="attr_Spite" value="10" /><span></span>
+        <button type='roll' name='roll_Spiteroll' value='/em rolls Willpower \n/r {(@{Willpower}+?{Pool Mod|0})d10s}>?{Difficulty|6}f1'></button>
+    </div>
+    <div align="left" style="margin:0px 0px 0px 28px">
+       
+			<input type="radio" name="attr_Spite_Used" value="0" class=" zero" checked/><span></span>
+			<input type="radio" name="attr_Spite_Used" value="1" class=" used"/><span></span>   
+			<input type="radio" name="attr_Spite_Used" value="2" class=" used"/><span></span>   
+			<input type="radio" name="attr_Spite_Used" value="3" class=" used"/><span></span>   
+			<input type="radio" name="attr_Spite_Used" value="4" class=" used"/><span></span>   
+			<input type="radio" name="attr_Spite_Used" value="5" class=" used"/><span></span>   
+			<input type="radio" name="attr_Spite_Used" value="6" class=" used"/><span></span>   
+			<input type="radio" name="attr_Spite_Used" value="7" class=" used"/><span></span>   
+			<input type="radio" name="attr_Spite_Used" value="8" class=" used"/><span></span>   
+			<input type="radio" name="attr_Spite_Used" value="9" class=" used"/><span></span>   
+			<input type="radio" name="attr_Spite_Used" value="10" class=" used"/><span></span>
+    </div>
+    
+    
+    <br>
 	<img class="section" src="https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/CWOD-Demon/img/dice_pools.png"><!--Dice Pools Picture-->
 	<div align="left" style="margin:0px 0px 0px 40px"><b >Attribute &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ability</b ></div>
         <div class=" DP1">
@@ -1403,7 +1373,3 @@
     </div>
 
 </div>
-
-<p style="text-align:center">
-<img src="https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/CWOD-Demon/img/footer.png"><!--Footer Picture-->
-</p>
